@@ -5,7 +5,7 @@ The game of Property Tycoon, like most games, has a main gameplay loop which kin
 The best place to start for getting an understanding of what the main gameplay loop may look like was the monopoly ps4 version as it is the closest thing to what we're looking to acheive with our creation of Property Tycoon. I had searched YouTube for a video of someone playing said monopoly ps4 game and skimming through to see how the game progresses and what options are available when. I used the video: "https://www.youtube.com/watch?v=lcJFecoMhCo".
 
 <h2>The Rough Main Gameplay Loop I have Designed</h2>
-<img src = "main gameplay loop design.png" style = "height:400px;width:500px"/><br>
+<img src = "Lowkey-Awesome-Developers/Gameplay-Loops/blob/master/main%20gameplay%20loop%20design.png" style = "height:400px;width:500px"/><br>
 
 A player starts with the options to either roll the dice or view the board map. The reason I have the board map option with a yellow outline is because this is the case in the video, however I am not sure if we will be including such an option for a range of reason, e.g. Our implementation makes the option of viewing the board map irrelevant. 
 
