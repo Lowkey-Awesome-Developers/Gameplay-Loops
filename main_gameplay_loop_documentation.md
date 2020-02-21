@@ -5,7 +5,7 @@ The game of Property Tycoon, like most games, has a main gameplay loop which kin
 The best place to start for getting an understanding of what the main gameplay loop may look like was the monopoly ps4 version as it is the closest thing to what we're looking to acheive with our creation of Property Tycoon. I had searched YouTube for a video of someone playing said monopoly ps4 game and skimming through to see how the game progresses and what options are available when. I used the video: "https://www.youtube.com/watch?v=lcJFecoMhCo".
 
 <h2>The Rough Main Gameplay Loop I have Designed</h2>
-<img src = "Lowkey-Awesome-Developers/Gameplay-Loops/blob/master/main-gameplay-loop-design.PNG" style = "height:400px;width:500px"/><br>
+<img src = "main-gameplay-loop-design.PNG" style = "height:400px;width:500px"/><br>
 
 A player starts with the options to either roll the dice or view the board map. The reason I have the board map option with a yellow outline is because this is the case in the video, however I am not sure if we will be including such an option for a range of reason, e.g. Our implementation makes the option of viewing the board map irrelevant. 
 
@@ -16,7 +16,7 @@ Once the dice are rolled we see there are many options that are available, this 
 Coincidently they all progress to the same next state, the "Neutral" state. This state is only for visual purposes and hint the name doesn't itself invoke an action. From this neutral state the player can once again access the board map as well as trade with other players or declare bankruptcy. Once again paying attention to the arrows, the player can go back and forth between trading and the board map but once they choose either "Bankrupt" or "End Turn" options their turn will end. The statement at the bottom is to show that once the player chooses "End Turn" or "Bankrupt" this loop will start again however the player's whose turn it was next will now go.
 
 <h2>Board Map Loop</h2>
-<img src = "Lowkey-Awesome-Developers/Gameplay-Loops/blob/master/board-map-loop-design.PNG" style = "height:400px;width:410px"/><br>
+<img src = "board-map-loop-design.PNG" style = "height:400px;width:410px"/><br>
 
 As I stated above, the board map option available in the main gameplay loop also has it's own set of options, this is also true for the "Trade" and auction part of the "Buy or Auction" option. Once again the loop once in the board map was taken from the same video as stated above. 
 
@@ -35,7 +35,7 @@ The auction loop is alot more simple than the ones previous, once again from a n
 There is possibility for a "Sold" state however I do believe that it well-known how said state is reached as well as "Sold" not really being an option they can choose rather than forced into.
 
 <h2>Trade Loop</h2>
-<img src = "Lowkey-Awesome-Developers/Gameplay-Loops/blob/master/trade-loop-design.PNG" style = "height:375px;width:400px"/>
+<img src = "trade-loop-design.PNG" style = "height:375px;width:400px"/>
 
 The current design for the trade loop, as seen above, is somewhat awkward to view. I think everyone understands that when a trade occurs a player will show what they are willing to give for what they desire. Since both "giving" and "receiving" are comprised of the same thing, cards and money, I decided to have them as one state, remembering that I have based this off the YouTube video I linked above this single state design does make sense as you are able to go back and forth between "offering" and "recieving".
 
