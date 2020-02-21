@@ -28,7 +28,7 @@ An example of a situation that isn't detailed too well by the design is a proper
 Despite the problem of not representing some situations very well I do believe the design to be useful as it is simplistic and accounts for the far majority of the situations possible.
 
 <h2>Auction Loop</h2>
-<img src = "Lowkey-Awesome-Developers/Gameplay-Loops/blob/master/auction-loop-design.PNG" style = "height:400px;width:575px"/>
+<img src = "auction-loop-design.PNG" style = "height:400px;width:575px"/>
 
 The auction loop is alot more simple than the ones previous, once again from a neutral state the player will choose to either bid, £1, £10 or £100 to try and secure the property or withdraw to pass it on to someone else. Once again the statement at the bottom states that after either of the said options are chosen the loop is then repeated for the players whose next turn it is.
 
