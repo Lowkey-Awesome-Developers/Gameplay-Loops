@@ -16,7 +16,7 @@ Once the dice are rolled we see there are many options that are available, this 
 Coincidently they all progress to the same next state, the "Neutral" state. This state is only for visual purposes and hint the name doesn't itself invoke an action. From this neutral state the player can once again access the board map as well as trade with other players or declare bankruptcy. Once again paying attention to the arrows, the player can go back and forth between trading and the board map but once they choose either "Bankrupt" or "End Turn" options their turn will end. The statement at the bottom is to show that once the player chooses "End Turn" or "Bankrupt" this loop will start again however the player's whose turn it was next will now go.
 
 <h2>Board Map Loop</h2>
-<img src = "board-map-loop-design.PNG" style = "height:400px;width:410px"/><br>
+<img src = "board-map-loop-design.PNG" height = "400" width = "410"/><br>
 
 As I stated above, the board map option available in the main gameplay loop also has it's own set of options, this is also true for the "Trade" and auction part of the "Buy or Auction" option. Once again the loop once in the board map was taken from the same video as stated above.
 
@@ -28,14 +28,14 @@ An example of a situation that isn't detailed too well by the design is a proper
 Despite the problem of not representing some situations very well I do believe the design to be useful as it is simplistic and accounts for the far majority of the situations possible.
 
 <h2>Auction Loop</h2>
-<img src = "auction-loop-design.PNG" style = "height:400px;width:575px"/>
+<img src = "auction-loop-design.PNG" height = "400" width = "575"/>
 
 The auction loop is a lot more simple than the ones previous, once again from a neutral state the player will choose to either bid, £1, £10 or £100 to try and secure the property or withdraw to pass it on to someone else. Once again the statement at the bottom states that after either of the said options are chosen the loop is then repeated for the players whose next turn it is.
 
 There is possibility for a "Sold" state however I do believe that it well-known how said state is reached as well as "Sold" not really being an option they can choose rather than forced into.
 
 <h2>Trade Loop</h2>
-<img src = "trade-loop-design.PNG" style = "height:375px;width:400px"/>
+<img src = "trade-loop-design.PNG" height = "375" width = "400"/>
 
 The current design for the trade loop, as seen above, is somewhat awkward to view. I think everyone understands that when a trade occurs a player will show what they are willing to give for what they desire. Since both "giving" and "receiving" are comprised of the same thing, cards and money, I decided to have them as one state, remembering that I have based this off the YouTube video I linked above this single state design does make sense as you are able to go back and forth between "offering" and "receiving".
 
