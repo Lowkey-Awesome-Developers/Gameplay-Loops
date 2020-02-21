@@ -13,6 +13,8 @@ The arrows are important here as it shows that as soon as you roll the dice you 
 
 Once the dice are rolled we see there are many options that are available, this is because it models all the possible outcomes of the tile that you land on, you can land on a property, which leads to the "buy or auction" or "Pay Rent" options, depending on the status of the property, you can land on either "Go to Jail" or "Free Parking" corner, you can land on a "Pay Tax" tile or a "Pot Luck/Opportunity Knocks" tile.
 
+yo this is a change
+
 Coincidently they all progress to the same next state, the "Neutral" state. This state is only for visual purposes and hint the name doesn't itself invoke an action. From this neutral state the player can once again access the board map as well as trade with other players or declare bankruptcy. Once again paying attention to the arrows, the player can go back and forth between trading and the board map but once they choose either "Bankrupt" or "End Turn" options their turn will end. The statement at the bottom is to show that once the player chooses "End Turn" or "Bankrupt" this loop will start again however the player's whose turn it was next will now go.
 
 <h2>Board Map Loop</h2>
